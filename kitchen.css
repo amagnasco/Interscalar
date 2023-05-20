@@ -1,0 +1,34 @@
+body {
+    font-family: 'Palatino', serif;
+    text-align: justify; 
+    font-size: 110%;
+    background-color: #fefefa;
+    color: #343e58;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-top: 5vh;
+}
+
+h1 {
+    font-size: 300%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    padding: 10%;
+}
+
+tr:hover {background-color: #f7fefe;}
+
+span.observablehq--inspect, span.observablehq--collapsed {
+    visibility: hidden;
+    display: none;
+}
+
+h4 {
+    display: none;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <title>Musical Test Kitchen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+    <link rel="stylesheet" href="kitchen.css">
+    <script type="module">
+        import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+        import define from "https://api.observablehq.com/@amagnasco/ratio.js?v=3";
+        new Runtime().module(define, Inspector.into("#observablehq-5799d796"));
+    </script>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+<body>
+    <div id="observablehq-5799d796"></div>
+</body>
+</html>
